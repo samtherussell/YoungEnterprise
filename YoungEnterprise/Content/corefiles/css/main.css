@@ -1,0 +1,116 @@
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+	color: white;
+}
+
+header,section,footer,aside,nav,article {
+	display: block;
+}
+
+body {
+	text-align: center;
+	height:1000px;
+	background: #3d59ab;
+	
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #010029 0%, #4671D5 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #010029 0%, #4671D5 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #010029 0%, #4671D5 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #010029), color-stop(1, #4671D5));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #010029 0%, #4671D5 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #010029 0%, #4671D5 100%);
+	
+	   
+
+	
+	
+	/*background:-moz-linear-gradient(top left,#2A4480,#6494ED,#4671D5,#26468F,#6C8CD5);
+	background:-webkit-gradient(linear,left top,right bottom,from(#2A4480),color-stop(0.25,#6494ED),color-stop(0.5,#4671D5),color-stop(0.75,#26468F),to(#6C8CD5));
+	*/	
+	/*background:-moz-linear-gradient(top,#010029,#4671D5);
+	background:-webkit-gradient(linear,left top, left bottom,from(#010029),to(#4671D5));
+	/*background-image: -ms-linear-gradient(red, green, blue, purple, orange);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#010029', endColorstr='#4671D5');
+	background-attachment: fixed*/
+}
+
+#topbar,#main,#side{
+background-color: rgba(0,0,0,0.2);
+/*background-color: #005CB9 /*3d59ab*/
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0px /*pushes the page down from the top*/auto/*centers the page*/;
+	padding: 30px;
+	padding-bottom: 10px;
+}
+
+#topbar {
+	/*border-radius: 20px;*/
+}
+
+#header {
+	height: 150px;
+	border-bottom: 3px solid white;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-image: URL(../../media/eagle.jpg);
+	background-repeat: no-repeat;
+	/*border-top-left-radius: 20px;
+	border-top-right-radius: 20px;*/
+}
+
+#headingleft {
+	float: left;
+}
+
+#headingright {
+	float: right;
+}
+
+#main {
+	float: left;
+	width: 67%;
+	margin: 1%;
+	margin-left:0px;
+	padding: 2%;
+	/*border-radius: 20px;*/
+}
+
+#side {
+	float: right;
+	margin: 1%;
+	margin-right:0px;
+	margin-left:0px;
+	width: 26%;
+	padding: 10px;
+	/*border-radius: 20px;*/
+	height: 400px;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+#footer {
+	clear: both;
+	padding: 5px;
+	border-top: 2px solid white;
+	width: 100%;
+}

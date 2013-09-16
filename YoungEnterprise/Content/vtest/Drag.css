@@ -1,0 +1,57 @@
+*{
+	font-family:century gothic;
+}
+
+
+img {
+	float: left;
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+}
+
+iframe#table{
+height:1000px;
+width:500px;
+}
+
+#div2,#div3,#div4,#div5,#div6 {
+	float: left;
+	width: 170px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #aaaaaa;
+	text-align: right;
+}
+
+#divmakeitreallylongtest {
+	float: left;
+	width: 600px;
+	margin: 3%;
+	padding: 10%px;
+	border: 1px solid #aaaaaa;
+	text-align: right;
+}
+
+
+#buttondiv{
+	float:left;
+	margin: 10px;
+		text-align: center;
+}
+
+#button {
+	float:none;
+	display:block;
+	padding:20px;
+	color:white;
+	background-color:blue;
+	
+	
+}
+
+#wrapper{
+height:1400px;
+
+}

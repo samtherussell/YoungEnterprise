@@ -1,0 +1,78 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+	color: white;
+}
+
+header,section,footer,aside,nav,article {
+	display: block;
+}
+
+body {
+	text-align: center;
+	background-color: #6495ED;
+}
+
+#topbar,#main,#side{
+	background-color: #3d59ab;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0px /*pushes the page down from the top*/auto/*centers the page*/;
+	padding: 30px;
+	padding-bottom: 10px;
+}
+
+#topbar {
+	border-radius: 20px;
+}
+
+#header {
+	height: 150px;
+	border-bottom: 3px solid white;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-image: URL(../../media/eagle.jpg);
+	background-repeat: no-repeat;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#headingleft {
+	float: left;
+}
+
+#headingright {
+	float: right;
+}
+
+#main {
+	float: left;
+	width: 65%;
+	margin: 1%;
+	padding: 2%;
+	border-radius: 20px;
+}
+
+#side {
+	float: right;
+	margin: 1%;
+	width: 25%;
+	padding: 10px;
+	border-radius: 20px;
+	height: 400px;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+#footer {
+	clear: both;
+	padding: 5px;
+	border-top: 2px solid white;
+	width: 100%;
+}

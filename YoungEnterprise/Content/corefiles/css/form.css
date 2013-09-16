@@ -1,0 +1,18 @@
+form {
+	text-align: left;
+}
+
+.posts {
+	text-align: left;
+}
+
+.input {
+	color: black;
+	font-family: arial;
+	text-align: left;
+}
+
+#button {
+	padding: 4px;
+	margin-top:4px;
+}

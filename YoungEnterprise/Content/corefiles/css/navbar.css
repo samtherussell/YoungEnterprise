@@ -1,0 +1,42 @@
+nav {
+	text-align: center;
+	margin-left: 280px;
+}
+
+ul#nav {
+	list-style-type: none;/*gets rid of bullets*/
+	padding: 0px;
+	margin: 0px
+}
+
+ul#nav li {
+	float: left;/*diplays them on the same line*/
+}
+
+ul#nav li a {
+	background-color: rgba(100,148,237,0.8);
+	display: block;/*makes sure they don't overlap*/
+	text-decoration: none; /*gets rid of underline*/
+	padding: 5px 10px;/*spaces them out*/
+	border-bottom: 1px solid #ccc;
+	width: 90px;
+}
+
+
+ul#nav li ul li {
+	list-style-type: none;/*gets rid of bullets points*/
+	float: none;/*don't want on same line*/
+}
+
+ul#nav li ul {
+	position: absolute;/*will show over the top of whats underneath*/
+	display: none;/*hiden until hovered over*/
+}
+
+#nav li a:hover {
+	background-color: #2A4480;/*change color when hovered over*/
+}
+
+ul#nav li:hover ul {
+	display: block;/*shown underneath one another*/
+}

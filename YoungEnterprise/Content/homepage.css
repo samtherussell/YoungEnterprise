@@ -1,0 +1,9 @@
+article{
+	
+	border-bottom:1px solid white;
+}
+article.d{border-top:0px;}
+article ul{text-align:left;}
+article p{text-align:justify;}
+article footer{text-align:right;}
+#contentul{margin-left:30px;}
